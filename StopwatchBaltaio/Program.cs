@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Start();
+            Menu();
+        }
+
+        static void Menu()
+        {
+            Console.Clear();
+            Console.WriteLine("S = Seconds");
+            Console.WriteLine("M = Minutes");
+            Console.WriteLine("0s = Exit");
+            Console.WriteLine("\nHow long do you want to count ?");
         }
 
         static void Start(int time)
