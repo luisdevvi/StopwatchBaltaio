@@ -7,9 +7,8 @@
             Start();
         }
 
-        static void Start()
+        static void Start(int time)
         {
-            int time = 10;
             int currentTime = 0;
 
             while (currentTime != time)
@@ -19,6 +18,10 @@
                 Console.WriteLine(currentTime);
                 Thread.Sleep(1000);
             }
+
+            Console.Clear();
+            Console.WriteLine("Stopwatch finish...");
+            Thread.Sleep(2000);
         }
     }
 }
