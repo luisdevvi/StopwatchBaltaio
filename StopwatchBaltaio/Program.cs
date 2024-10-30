@@ -46,6 +46,7 @@
             Console.Clear();
             Console.WriteLine("Stopwatch finish...");
             Thread.Sleep(2000);
+            Menu();
         }
     }
 }
